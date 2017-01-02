@@ -13,7 +13,7 @@ namespace CodeDebate.Samples.ConstructiveFeedback.Api.Controllers
 {
     public class SentimentFeedbackController : ApiController
     {
-        public async Task<HttpResponseMessage> Get(HttpRequestMessage request)
+        public async Task<HttpResponseMessage> Post(HttpRequestMessage request)
         {
             var response = 
                 new HttpResponseMessage();
